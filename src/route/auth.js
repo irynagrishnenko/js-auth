@@ -228,7 +228,7 @@ router.get('/signup-confirm', function (req, res) {
     Confirm.create(email)
   }
 
-  // res.render генерує нам HTML сторінку
+  // res.render генерує нам HTML сторінк
 
   // ↙️ cюди вводимо назву файлу з сontainer
   return res.render('signup-confirm', {
