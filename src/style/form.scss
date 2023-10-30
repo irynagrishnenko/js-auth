@@ -47,7 +47,7 @@
 }
 
 .alert {
-	border: 1p solid transparent;
+	border: 1px solid transparent;
 	border-radius: 10px;
 	padding: s.space(3) s.space(4);
 	font-size: 14px;
@@ -86,4 +86,18 @@
 
 .link__prefix {
 	color: s.color(light);
+}
+
+.skeleton {
+	animation: skeleton-animation 1s infinite alternate; 
+}
+
+@keyframes skeleton-animation {
+	from {
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+
+	to {
+		background-color: rgba(0, 0, 0, 0.15);
+	}
 }
